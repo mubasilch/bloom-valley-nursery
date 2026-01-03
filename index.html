@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bloom Valley Nursery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <h1>Bloom Valley Nursery</h1>
+  <nav aria-label="Primary">
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="custom.html">Custom</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" role="region" aria-label="Welcome">
+    <h2>Fresh Plants. Local Care.</h2>
+    <p>Discover indoor plants, outdoor favorites, and seasonal specials. Call or visit for custom orders.</p>
+    <a class="button" href="gallery.html">Browse Products</a>
+    <a class="button" href="about.html">Contact & Hours</a>
+  </section>
+
+  <section aria-label="Subscribe">
+    <h3>Subscribe for Updates</h3>
+    <p class="small">We only store your email to remember your preference. No sensitive data collected.</p>
+
+    <form id="subscribeForm" novalidate>
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" autocomplete="email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+
+    <div id="subscribeMessage" class="notice" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer>
+  <p><strong>Visit us:</strong> 123 Greenway Rd • <strong>Call:</strong> (555) 123-4567</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
